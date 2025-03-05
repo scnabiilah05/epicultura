@@ -53,8 +53,8 @@ export default function Hero() {
               />
               <div className={`absolute top-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-2xl sm:rounded-3xl shadow-lg ${
                 isMobile 
-                ? 'left-4' // Left side positioning for mobile with padding to prevent cutoff
-                : 'right-0 translate-x-1/3 sm:translate-x-1/4 md:translate-x-1/6' // Right side for larger screens
+                ? 'left-4'
+                : 'right-0 translate-x-1/3 sm:translate-x-1/4 md:translate-x-1/6'
               }`}>
                 <h4 className="font-bold text-black text-base sm:text-xl">Cardio Coach</h4>
                 <p className="text-black text-sm sm:text-base">
