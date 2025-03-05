@@ -6,7 +6,6 @@ export default function Programs() {
   return (
     <section className="bg-[#063434] text-white py-10">
       <div className="w-[90%] max-w-[1200px] mx-auto">
-        {/* Mobile Title First - Hidden on Desktop */}
         <div className="md:hidden text-center mb-8">
           <p className="text-lg mb-2">Our Programs</p>
           <h2 className="font-plusJakarta font-normal text-3xl leading-[1.2] tracking-tight mx-auto">
@@ -15,9 +14,7 @@ export default function Programs() {
         </div>
 
         <div className="grid grid-cols-12 gap-6">
-          {/* Left Column */}
           <div className="col-span-12 md:col-span-6 space-y-6">
-            {/* Yoga & Pilates Card */}
             <div className="bg-[#2D5050] rounded-3xl p-6 relative">
               <div className="flex justify-between items-center mb-6">
                 <div className="bg-[#063434] text-white px-4 py-2 md:px-6 md:py-3 rounded-full text-sm md:text-base">
@@ -36,7 +33,6 @@ export default function Programs() {
               </div>
             </div>
 
-            {/* Desktop Title - Hidden on Mobile */}
             <div className="hidden md:block mb-10">
               <p className="text-xl mb-2">Our Programs</p>
               <h2 className="font-plusJakarta font-normal text-4xl md:text-5xl lg:text-6xl leading-[1.1] tracking-tight max-w-md">
@@ -45,9 +41,7 @@ export default function Programs() {
             </div>
           </div>
 
-          {/* Right Column */}
           <div className="col-span-12 md:col-span-6 space-y-6">
-            {/* HIIT Card */}
             <div className="bg-[#2D5050] rounded-3xl p-6 relative">
               <div className="flex justify-between items-center mb-6">
                 <div className="bg-[#063434] text-white px-4 py-2 md:px-6 md:py-3 rounded-full text-sm md:text-base">
@@ -66,7 +60,6 @@ export default function Programs() {
               </div>
             </div>
 
-            {/* Functional Fitness Card */}
             <div className="bg-[#2D5050] rounded-3xl p-6 relative">
               <div className="flex justify-between items-center mb-6">
                 <div className="bg-[#063434] text-white px-4 py-2 md:px-6 md:py-3 rounded-full text-sm md:text-base">

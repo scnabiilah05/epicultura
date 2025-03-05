@@ -39,9 +39,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#063434] text-white pt-8 md:pt-16 pb-8">
       <div className="w-[90%] max-w-[1200px] mx-auto">
-        {/* Top Section with Hero and Image - Modified for mobile */}
         <div className="flex flex-col lg:flex-row justify-between mb-8 md:mb-16 relative min-h-[300px] md:min-h-[500px] pt-8 md:pt-16">
-          {/* Left Content */}
           <div className="max-w-[600px] mb-6 md:mb-10 lg:mb-0 flex flex-col h-full">
             <div className="font-bold text-3xl md:text-4xl tracking-wide mb-12 md:mb-24">
               HEALING
@@ -50,7 +48,6 @@ export default function Footer() {
               Ready to move<br />toward optimal<br />health and fitness?
             </h2>
             
-            {/* Join Now button moved to below heading on mobile */}
             <div className="block lg:hidden mt-8">
               <Link
                 href="#"
@@ -62,7 +59,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Image section - Hidden on mobile */}
           <div className="relative flex-1 hidden lg:flex justify-end">
             <div className="relative h-[400px] w-[350px]">
             <div className="relative right-50 h-[500px] w-[450px]">
@@ -89,7 +85,6 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mb-8 md:mb-12"></div>
 
-        {/* Contact Information - Moved up for mobile */}
         <div className="mb-8 md:hidden">
           <p className="mb-4 leading-relaxed">
             We are ready to help you with all your questions or needs
@@ -98,9 +93,7 @@ export default function Footer() {
           <p className="mb-6">+620194810894</p>
         </div>
 
-        {/* Links Section - Grid layout for mobile */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
-          {/* Quick Links */}
           <div>
             <h3 className="font-medium text-lg md:text-xl mb-4 md:mb-6">
               Quick Links
@@ -119,7 +112,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Support */}
           <div>
             <h3 className="font-medium text-lg md:text-xl mb-4 md:mb-6">
               Support
@@ -138,7 +130,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company - New row on mobile */}
           <div className="col-span-2 md:col-span-1 mt-4 md:mt-0">
             <h3 className="font-medium text-lg md:text-xl mb-4 md:mb-6">
               Company
@@ -157,7 +148,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Information - For desktop */}
           <div className="hidden md:block">
             <p className="mb-6 leading-relaxed">
               We are ready to help you with all your questions or needs
@@ -167,7 +157,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Social Media Icons - Centered on mobile */}
         <div className="flex justify-center md:justify-start gap-4 mt-10 md:mt-8">
           {socialIcons.map((social, index) => (
             <Link
@@ -183,7 +172,6 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Footer Links */}
         <div className="flex flex-col md:flex-row justify-center md:justify-between items-center mt-10 md:mt-16 pt-6 md:pt-8 border-t border-white/10 text-xs md:text-sm text-white/70">
           <div className="flex flex-col md:flex-row gap-4 md:gap-8 mb-4 md:mb-0 text-center md:text-left">
             {footerLinks.map((link, index) => (
